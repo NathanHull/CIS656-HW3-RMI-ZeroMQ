@@ -1,0 +1,8 @@
+compute/RegistrationInfo.class
+engine/ServiceEngine$1.class
+client/ProcessIncomingServerMessage.class
+client/ChatClient.class
+compute/PresenceService.class
+client/ProcessIncomingClientMessage.class
+engine/ServiceEngine.class
+client/ChatClient$1.class
