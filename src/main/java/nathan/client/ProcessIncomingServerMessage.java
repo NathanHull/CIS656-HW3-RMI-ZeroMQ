@@ -21,8 +21,9 @@ public class ProcessIncomingServerMessage implements Runnable {
     public void run() {
         while (!Thread.currentThread().isInterrupted()) {
             String message = receiveSocket.recvStr();
+            message = receiveSocket.recvStr();
             if (!message.split(":")[0].equals(userName)) {
-                System.out.println("[Broadcast from server] " + receiveSocket.recvStr());
+                System.out.println("[Broadcast from server] " + message);
             }
         }
     }

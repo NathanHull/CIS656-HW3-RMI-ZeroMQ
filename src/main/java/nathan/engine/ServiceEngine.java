@@ -144,6 +144,7 @@ public class ServiceEngine implements PresenceService {
      * @param message The message to broadcast
      */
     public void broadcast(String message) throws RemoteException {
+        pubSocket.send("");
         pubSocket.send(message);
     }
 }
